@@ -1,6 +1,9 @@
 # Android-SQLiteMergerHelper
 
-__Class instrumentation for merging SQLite database.__
+__Class instrumentation for merging SQLite database.__ 
+
+### Version
+1.0.0
 
 # Add in project
 
@@ -92,5 +95,6 @@ All together one entry in the script looks like this(Example)
 ```
  
 The first command always goes __VERSION:__ further order of of commands is not important until the next command __VERSION:__
+All commands are executed in the order in which were written in the script.
  
-"This projected is licensed under the terms of the MIT license."
+			"This projected is licensed under the terms of the MIT license."
