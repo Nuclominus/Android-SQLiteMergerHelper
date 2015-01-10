@@ -1,6 +1,6 @@
 # Android-SQLiteMergerHelper
 
-__Class instrumentation for merging SQLite database.__ 
+__ Class instrumentation for migrating SQLite database on Android.__ 
 
 ### Version
 1.0.0
@@ -35,7 +35,6 @@ Other work to go to a script.
 	VERSION:
 	18
 ```
-
 
 
  - __ADD_COLUMNS:__
@@ -93,7 +92,8 @@ All together one entry in the script looks like this(Example)
 	messages:sort INTEGER DEFAULT 0
 	...
 ```
- 
+
+#
 The first command always goes __VERSION:__ further order of of commands is not important(if not violated the logic of the database) until the next command __VERSION:__
 
 All commands are executed in the order in which were written in the script.
