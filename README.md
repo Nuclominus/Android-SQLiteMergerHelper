@@ -1,6 +1,6 @@
 # Android-SQLiteMergerHelper
 
-__ Class instrumentation for migrating SQLite database on Android.__ 
+__Class instrumentation for migrating SQLite database on Android.__ 
 
 ### Version
 1.0.0
